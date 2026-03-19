@@ -174,7 +174,7 @@ export default function App() {
   // useEffect runs code AFTER the component renders.
   // The [] at the end means "only run this once, on first load"
   useEffect(() => {
-    Papa.parse('${import.meta.env.BASE_URL}data/sorghum_rye_results.csv', {
+    Papa.parse(`${import.meta.env.BASE_URL}data/sorghum_rye_results.csv`, {
       download: true,
       header: true,        // uses first row as keys
       dynamicTyping: true, // converts numbers automatically
