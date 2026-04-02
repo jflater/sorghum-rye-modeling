@@ -1,3 +1,6 @@
+# Sorghum Dashboard
+https://jflater.github.io/sorghum-rye-modeling/dashboard/
+
 # Sorghum-Rye Modeling Pipeline
 **Location:** Ames, Iowa (Historical Data 1988-2024)  
 **Tools:** APSIM NextGen, Python 3.12, SQLite, Pandas
